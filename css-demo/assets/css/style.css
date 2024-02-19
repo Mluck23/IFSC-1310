@@ -1,0 +1,26 @@
+/*--- CSS Demo----*/
+
+body{
+    background-color:bisque
+}
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/*  --------------- Global Styles -----------------  */
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+header.primary{
+
+}
