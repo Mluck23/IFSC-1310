@@ -15,6 +15,24 @@ html {
     box-sizing: inherit;
   }
 
+
+/* -----------------Responsive Images----------------- *//*so images can stay on page when minimized*/
+
+img{
+  max-width:100%;
+}
+
+
+/* -----------------Utility Classes----------------- */
+
+/*--This deals with centering the words on the page*/
+
+.container{
+  max-width:960px;
+  width:80vw;
+  margin:60px auto;
+}
+
 /*  --------------- Global Styles -----------------  */
 
 body{
@@ -84,4 +102,84 @@ header.primary nav a{
 
 header.primary nav a:hover{
 background-color: rgba(0,0,0,.9);
+}
+
+#content{
+  line-height:1.5;
+}
+
+#content h2{
+color:red;
+border-bottom:6px dotted royalblue;
+/* 6px = width dotted = stroke and then color*/
+}
+
+#content h3{
+  border-left: 8px solid blue;
+  padding:7.5px;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:2rem;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.75);
+  padding:10px;
+  border-radius:4px;
+  font-size:.8rem;
+  transition:.5s;
+}
+
+#blog figure{
+  margin:0;
+  background:red;
+}
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size:.6rem;
+  text-align:center;
+}
+
+#blog header{
+  padding-top:10px;
+  font-size:.8rem;
+}
+
+#blog header h2{
+  margin:0;
+}
+
+#blog a{
+  color:blue;
+}
+
+#blog .post:hover{
+  box-shadow: 
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+  header.primary ul{
+    flex-direction:column;
+    gap:20px;
+    max-width:250px;
+    margin:auto;
+  }
+  header.orimary nav a{
+    display:block;
+  }
 }
