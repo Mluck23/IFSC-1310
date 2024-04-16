@@ -20,3 +20,7 @@ html {
     width:80vw;
     margin:60px auto;
   }
+
+  header.primary{
+    background-image: url(../img/Dragonx.jpg);
+  }
