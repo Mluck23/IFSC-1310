@@ -23,4 +23,7 @@ html {
 
   header.primary{
     background-image: url(../img/Dragonx.jpg);
+    text-align:center; 
+    text-shadow:15px 10px 50px #000000;
+    padding:40px;
   }
