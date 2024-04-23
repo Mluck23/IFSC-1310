@@ -92,9 +92,65 @@ html {
 
 section#content h2 {
   text-align: center;
-  font-family: "Kanit",serif;
-  font-size: 3em;
+  font-family: "Madimi One",serif;
+  font-size: 4em;
   color:#ffffff;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:4rem;
+  border-bottom:4px solid #7630D9;
+  padding-bottom:2rem;
+  border-top:1px double #0D0D0D;
+  padding-top:2rem; 
+  flex-wrap:wrap;
+}
+
+#blog h2{
+  flex:0 0 100%;
+  margin:0;
+  text-align:center;
+  color: #ffffff;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.75);
+  padding:10px;
+  border-radius:4px;
+  font-size:.8rem;
+  transition:.5s;
+  flex:1;
+}
+
+#blog figure{
+  margin:0;
+  background:#7630D9;
+}
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size:.6rem;
+  text-align:center;
+}
+
+#blog header{
+  padding-top:10px;
+  font-size:.9rem;
+}
+
+#blog header h2{
+  margin:0;
+}
+
+#blog a{
+  color:#7630D9;
+}
+
+#blog .post:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0,.6);
 }
 
 
