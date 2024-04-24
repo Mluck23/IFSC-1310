@@ -88,6 +88,7 @@ html {
 
 #content {
   padding: 4em 0;
+  color:#ffffff;
 }
 
 section#content h2 {
@@ -123,6 +124,7 @@ section#content h2 {
   font-size:.8rem;
   transition:.5s;
   flex:1;
+  color:#ffffff;
 }
 
 #blog figure{
@@ -151,6 +153,10 @@ section#content h2 {
 
 #blog .post:hover{
   box-shadow: 0 8px 16px rgba(0,0,0,.6);
+}
+
+#history {
+  color: #ffffff;
 }
 
 
@@ -183,8 +189,10 @@ section#content h2 {
     td{
       border: 3px solid #532473;
       padding:4px;
+      color: #ffffff;
     }
     
     td:nth-child(n+2){
     text-align:right;
     }
+
