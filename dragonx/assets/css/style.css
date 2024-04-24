@@ -1,5 +1,5 @@
 body{
-    background-color:brown;
+    background-color:black;
     margin:0;
 }
 
@@ -103,7 +103,7 @@ section#content h2 {
   flex-direction:row;
   justify-content:space-around;
   gap:4rem;
-  border-bottom:4px solid #7630D9;
+  border-bottom:4px solid #011C40;
   padding-bottom:2rem;
   border-top:1px double #0D0D0D;
   padding-top:2rem; 
@@ -129,7 +129,7 @@ section#content h2 {
 
 #blog figure{
   margin:0;
-  background:#7630D9;
+  background:#011C40;
 }
 
 #blog figcaption{
