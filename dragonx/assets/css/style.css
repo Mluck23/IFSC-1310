@@ -173,13 +173,13 @@ section#content h2 {
     }
     
     th{
-      background-color:#7630D9;
+      background-color:#6D6E72;
       color:white;
       padding:5px;
     }
     
     tr:nth-child(even){
-      background-color: #EBF2F2;
+      background-color: #011C40;
     }
     
     tr:hover{
@@ -187,7 +187,7 @@ section#content h2 {
     }
     
     td{
-      border: 3px solid #532473;
+      border: 3px solid #6D6E72;
       padding:4px;
       color: #ffffff;
     }
@@ -196,3 +196,30 @@ section#content h2 {
     text-align:right;
     }
 
+    aside[role="complementary"]{
+      background-color:#04588C;
+      color:white;
+      padding:2.5rem;
+    }
+    
+    aside .container{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      gap:50px;
+    }
+
+
+
+
+    @media screen and (max-width:600px) {
+      header.primary ul{
+        flex-direction:column;
+        gap:20px;
+        max-width:250px;
+        margin:auto;
+      }
+      header.orimary nav a{
+        display:block;
+      }
+    }
