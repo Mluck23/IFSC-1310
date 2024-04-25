@@ -118,7 +118,7 @@ section#content h2 {
   box-shadow: 0 4px 8px rgba(0,0,0,0.75);
   padding:10px;
   border-radius:4px;
-  font-size:.8rem;
+  font-size:1rem;
   transition:.5s;
   flex:1;
   color:#ffffff;
