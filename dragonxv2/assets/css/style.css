@@ -159,7 +159,7 @@ section#content h2 {
 #history {
   color: #ffffff;
   background-image: url(../img/Dragon-Sec.jpg);
-  background-size: cover;
+  background-size:contain;
   font-size: 1rem;
 }
 
@@ -198,6 +198,27 @@ section#content h2 {
     
     td:nth-child(n+2){
     text-align:right;
+    }
+
+    details {
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      padding: 0.5em 0.5em 0;
+    }
+    
+    summary {
+      font-weight: bold;
+      margin: -0.5em -0.5em 0;
+      padding: 0.5em;
+    }
+    
+    details[open] {
+      padding: 0.5em;
+    }
+    
+    details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: 0.5em;
     }
 
     aside[role="complementary"]{
