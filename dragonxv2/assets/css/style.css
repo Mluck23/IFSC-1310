@@ -1,0 +1,227 @@
+body{
+    background-color:black;
+    font-family: "Quicksand", sans-serif;
+    margin:0;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  .container{
+    max-width:960px;
+    width:80vw;
+    margin:60px auto;
+  }
+
+  header.primary{
+    background-image: url(../img/Dragonx.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align:center; 
+    text-shadow:15px 10px 20px #000000;
+    padding-top:40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 650px;
+  }
+
+  header.primary h1{
+    font-size: 6rem;
+    margin:30px 0 0;
+    }
+    
+    header.primary h1 a{
+      color:#EBF2F2;
+      text-decoration:none;
+    }
+    
+    header.primary h2{
+    font-size:4rem ;
+    margin:0;
+    color: #ffffff;
+    text-decoration:none;
+    }
+    
+    header.primary nav{
+      max-width:900px;
+      margin: 30px auto;
+    }
+    
+    header.primary ul{
+      padding:15px 0;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-between;
+    }
+    
+    header.primary ul li{
+      list-style-type: none;
+    }
+    
+    header.primary nav a{
+      color:#ffffff;
+      text-decoration:none;
+      background-color:rgba(0,0,0,.4);
+      padding:20px 6px;
+      border-radius:30px;
+      border: 1px solid rgb(87, 62, 178);
+      transition:0.6s;
+    }
+    
+    header.primary nav a:hover{
+    background-color: rgba(0,0,0,.9);
+    }
+
+#content {
+  padding: 4em 0;
+  color:#ffffff;
+}
+
+section#content h2 {
+  text-align: center;
+  font-family: "Madimi One",serif;
+  font-size: 4em;
+  color:#ffffff;
+}
+
+#blog{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:4rem;
+  border-bottom:4px solid #011C40;
+  padding-bottom:2rem;
+  border-top:1px double #0D0D0D;
+  padding-top:2rem; 
+  flex-wrap:wrap;
+}
+
+#blog h2{
+  flex:0 0 100%;
+  margin:0;
+  text-align:center;
+  color: #ffffff;
+}
+
+#blog .post{
+  box-shadow: 0 4px 8px rgba(0,0,0,0.75);
+  padding:10px;
+  border-radius:4px;
+  font-size:1rem;
+  transition:.5s;
+  flex:1;
+  color:#ffffff;
+}
+
+#blog figure{
+  margin:0;
+  background:#011C40;
+}
+
+#blog figcaption{
+  text-transform:uppercase;
+  font-size:.6rem;
+  text-align:center;
+}
+
+#blog header{
+  padding-top:10px;
+  font-size:.9rem;
+}
+
+#blog header h2{
+  margin:0;
+}
+
+#blog a{
+  color:#011C40;
+}
+
+#blog .post:hover{
+  box-shadow: 0 8px 16px rgba(0,0,0,.6);
+}
+
+#history {
+  color: #ffffff;
+}
+
+
+    table{
+      border: 1px solid grey;
+      width:100%;
+      margin:25px 0;
+      border-collapse:collapse;
+    }
+    
+    caption{
+      font-weight:bold;
+      margin:10px;
+    }
+    
+    th{
+      background-color:#6D6E72;
+      color:white;
+      padding:5px;
+    }
+    
+    tr:nth-child(even){
+      background-color: #011C40;
+    }
+    
+    tr:hover{
+    background-color: rgba(0,0,0,.8)
+    }
+    
+    td{
+      border: 3px solid #6D6E72;
+      padding:4px;
+      color: #ffffff;
+    }
+    
+    td:nth-child(n+2){
+    text-align:right;
+    }
+
+    aside[role="complementary"]{
+      background-color:#011C40;
+      color:white;
+      padding:2.5rem;
+    }
+    
+    aside .container{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      gap:50px;
+    }
+
+    #colophon{
+      background-color:#011C40;
+      padding:19px;
+      color:white;
+      font-size:1.9rem;
+      }
+
+
+    @media screen and (max-width:600px) {
+      header.primary ul{
+        flex-direction:column;
+        gap:20px;
+        max-width:250px;
+        margin:auto;
+      }
+      header.orimary nav a{
+        display:block;
+      }
+    }
