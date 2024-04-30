@@ -72,15 +72,18 @@ html {
     header.primary nav a{
       color:#ffffff;
       text-decoration:none;
-      background-color:rgba(0,0,0,.4);
+      background-color: #011C40;
       padding:20px 50px;
       border-radius:80px;
       border: 1px solid rgb(24, 8, 82);
-      transition:0.6s;
+      transition: color 0.6s, box-shadow 0.3s;
+      opacity: 95%;
     }
     
     header.primary nav a:hover{
     background-color: rgba(0,0,0,.9);
+    color: #ff8efb;
+    box-shadow: 0 0 8px #ff8efb, 0 0 15px #ff8efb, 0 0 22px #8833ff; 
     }
 
 #content {
@@ -154,6 +157,8 @@ section#content h2 {
 
 #blog .post:hover{
   box-shadow: 0 8px 16px rgba(0,0,0,.6);
+  color: #ff8efb;
+    box-shadow: 0 0 8px #ff8efb, 0 0 15px #ff8efb, 0 0 22px #8833ff; 
 }
 
 #history {
@@ -187,7 +192,9 @@ section#content h2 {
     }
     
     tr:hover{
-    background-color: rgba(0,0,0,.8)
+    background-color: rgba(0,0,0,.8);
+    color: #ff8efb;
+    box-shadow: 0 0 8px #ff8efb, 0 0 15px #ff8efb, 0 0 22px #8833ff; 
     }
     
     td{
@@ -201,24 +208,40 @@ section#content h2 {
     }
 
     details {
-      border: 1px solid #aaa;
-      border-radius: 4px;
-      padding: 0.5em 0.5em 0;
+      border: 2px solid #7a5fcf;
+      border-radius: 8px;
+      padding: 10px;
+      width: 400px;
+      background: linear-gradient(to right,#2e2e52,#534972);
+      color:#ffffff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0,2);
+      transition: transform 0.3s ease;
     }
     
     summary {
       font-weight: bold;
+      cursor:pointer;
       margin: -0.5em -0.5em 0;
-      padding: 0.5em;
+      padding: 5px 10px;
+      color:#c2c2f8;
+      background:rgba(0,0,0,0,1);
+      border-radius: 4px;
+      transition: background-color 0.3s, color 0.3s;
     }
     
     details[open] {
       padding: 0.5em;
+      color: #ffdd40;
+      background:rgba(0,0,0,0,3);
     }
     
     details[open] summary {
       border-bottom: 1px solid #aaa;
       margin-bottom: 0.5em;
+    }
+
+    details:hover {
+      transform: scale(1.05);
     }
 
     aside[role="complementary"]{
